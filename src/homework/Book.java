@@ -19,16 +19,5 @@ public class Book {
         this.age = age;
     }
 
-    public static void getBookAuthor() {
-        Author bookOne = new Author("George", "Orwell");
-
-        System.out.print("Author = " + bookOne.getName() + " " + bookOne.getSurname() + ", ");
-    }
-
-    public static void getBookAuthor1() {
-        Author bookTwo = new Author("Aldous", "Huxley");
-
-        System.out.print("Author = " + bookTwo.getName() + " " +  bookTwo.getSurname());
-    }
 
 }
